@@ -1,7 +1,8 @@
 import 'package:flutflix/Models/movies.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:flutflix/colors.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+
 import 'package:flutflix/constants.dart';
 
 class DetailsScreen extends StatelessWidget {

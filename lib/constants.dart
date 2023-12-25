@@ -1,5 +1,4 @@
 class Constants {
-  static const apiKey = '7310bfa9650e3d73d6127c076acc4c7e';
-  static const imagepath =
-      'https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg';
+  static const apiKey = '86adb317601a330d430adead4e089dbf';
+  static const imagePath = 'https://image.tmdb.org/t/p/w500';
 }

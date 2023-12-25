@@ -1,8 +1,7 @@
 import 'package:flutflix/Models/movies.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:flutflix/colors.dart';
 import 'package:flutter/material.dart';
-
+import 'package:google_fonts/google_fonts.dart';
 import 'package:flutflix/constants.dart';
 
 class DetailsScreen extends StatelessWidget {
@@ -54,7 +53,7 @@ class DetailsScreen extends StatelessWidget {
                   bottomRight: Radius.circular(24),
                 ),
                 child: Image.network(
-                  '${Constants.imagepath}${movie.backDroppath}',
+                  '${Constants.imagePath}${movie.posterPath}',
                   filterQuality: FilterQuality.high,
                   fit: BoxFit.cover,
                 ),
